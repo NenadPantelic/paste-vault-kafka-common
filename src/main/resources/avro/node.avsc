@@ -1,0 +1,13 @@
+{"namespace": "com.pastevault.kafka_common.model",
+  "type": "record",
+  "name": "AvroVaultNode",
+  "fields": [
+    {"name": "nodeId", "type": "string"},
+    {"name": "parentPath", "type": "string"},
+    {"name": "name", "type": "string"},
+    {"name": "creatorId", "type": "string"},
+    {"name": "type", "type": "string"},
+    {"name": "createdAt", "type": ["null", "long"], "logicalType": ["null", "date"]},
+    {"name": "updatedAt", "type": ["null", "long"], "logicalType": ["null", "date"]}
+  ]
+}

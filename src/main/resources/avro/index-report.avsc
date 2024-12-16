@@ -1,0 +1,9 @@
+{"namespace": "com.pastevault.kafka_common.model",
+  "type": "record",
+  "name": "AvroIndexingReport",
+  "fields": [
+    {"name": "nodeId", "type": "string"},
+    {"name": "indexed", "type": "boolean"},
+    {"name": "error", "type": ["null", "string"]}
+  ]
+}
